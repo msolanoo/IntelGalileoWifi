@@ -18,13 +18,13 @@ void loop() {
   
 }
 
-2. Unzip iwlwifi-6000g2b-ucode-18.168.6.1.tgz in windows folder of your preference.
+2. Unzip iwlwifi-6000g2b-ucode-18.168.6.1.tgz in windows folder of your preference.  Get driver from: http://wireless.kernel.org/en/users/Drivers/iwlwifi
 
-3. Copy iwlwifi-6000g2b-6.ucode to folder lib/firmware using WinSCP.  SCP Protocol.  Host Name 169.254.1.1. Port number 22.  User Name: root
+3. Copy iwlwifi-6000g2b-6.ucode to folder lib/firmware using WinSCP.  SCP Protocol.  Host Name 169.254.1.1. Port number 22.  User Name: root / Obtain WinSCP from http://winscp.net/eng/download.php
 
-4. Connect to Galileo using putty.  Host Name: 169.254.1.1 Port: 22.  User: root
+4. Connect to Galileo using putty. Putty can be donwloaded from: http://www.putty.org/ .  Host Name: 169.254.1.1 Port: 22.  User: root
 
-5. Type "wpa_passphrase MyWiFi << EOF > /etc/wpa_supplicant.conf" OJO --> MyWiFi = your router and hit enter
+5. Type "wpa_passphrase MyWiFi << EOF > /etc/wpa_supplicant.conf" Attention --> MyWiFi = your router and hit enter
 
 6. Type your router's password and hit enter
 
